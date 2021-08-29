@@ -10,7 +10,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "Hello World, form golang! \n")
+	io.WriteString(w, "hello World, form golang! \n")
 }
 
 func router() *mux.Router {
